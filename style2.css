@@ -6,7 +6,6 @@
     --borderradius: 5px;
   }
 
-
 .nav-link{
     color: black;
 }
@@ -82,7 +81,7 @@ footer {
     padding: 20px;
     color: black;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
 
   }
@@ -101,12 +100,12 @@ footer {
     margin-left: 20px;
   }
 
-  footer {
+  /*footer {
     position: fixed;
     height: 50px;
     bottom: 0;
     width: 100%;
-}
+}*/
 
 
 
