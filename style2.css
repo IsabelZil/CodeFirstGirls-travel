@@ -25,7 +25,7 @@
     width: 80%;
     margin: auto;
 }
-
+/*
 nav {
     background-color: #ff5252; 
     display: flex;  
@@ -38,7 +38,7 @@ nav img {
     height: 100%;
     margin-right: 10%;
 }
-
+/*
 /* margin logo*/
 .marginlogo {
     margin-left: 10px;
@@ -56,6 +56,7 @@ nav img {
     border: none;
     cursor: pointer;
     text-align: center;
+    border-radius: var(--borderradius);
   }
   
   .read-more:hover {
@@ -63,14 +64,14 @@ nav img {
   }
 
   
-  /* Carousel */
+  /* Carousel 
   
   .carousel-caption {
     background-color: var(--green2);
     border: 0px solid var(--beige);
     padding: 20px;
     border-radius: var(--borderradius);
-  }
+  }*/
 
  
 
@@ -82,7 +83,7 @@ footer {
     display: flex;
     justify-content:space-between;
     align-items: center;
-
+border-radius: var(--borderradius);
   }
   
   footer p {
@@ -111,7 +112,7 @@ footer {
 /* -- Index Page -- */
   
   /* Intro  */
-  .intro {
+  /*.intro {
     margin: 30px 0px;
     display: flex;
     align-items: center;
@@ -127,7 +128,7 @@ footer {
     border: 1px solid var(--beige);
     padding: 10px;
     border-radius: var(--borderradius);
-  }
+  }*/
   
   .post {
     display: flex;
@@ -188,6 +189,7 @@ footer {
     border: none;
     cursor: pointer;
     text-align: center;
+    border-radius: var(--borderradius);
   }
   
   .read-more:hover {
