@@ -1,29 +1,27 @@
 :root {
-    --green1: #ff5252;
-    --green2: #ff8a65;
-    --green3: #ffccbc;
-    --beige: white;
-    --borderradius: 5px;
-  }
-
-.nav-link{
-    color: black;
+  --green1: #ff5252;
+  --green2: #ff8a65;
+  --green3: #ffccbc;
+  --beige: white;
+  --borderradius: 5px;
 }
 
-
-.cardwidh{
-    margin: auto;
-    padding: 5px;
+.nav-link {
+  color: black;
 }
 
-
-.cardmrg{
-    margin: 10px;
+.cardwidh {
+  margin: auto;
+  padding: 5px;
 }
 
-.marginextra{
-    width: 80%;
-    margin: auto;
+.cardmrg {
+  margin: 10px;
+}
+
+.marginextra {
+  width: 80%;
+  margin: auto;
 }
 /*
 nav {
@@ -41,30 +39,12 @@ nav img {
 /*
 /* margin logo*/
 .marginlogo {
-    margin-left: 10px;
-  }
+  margin-left: 10px;
+}
 
 
 
-  .read-more {
-    display: inline-block;
-    margin-top: 5px;
-    padding: 5px 10px;
-    margin-left: 280px;
-    background-color: var(--green1);
-    color: var(--beige);
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    border-radius: var(--borderradius);
-  }
-  
-  .read-more:hover {
-    background-color: var(--green2);
-  }
-
-  
-  /* Carousel 
+/* Carousel 
   
   .carousel-caption {
     background-color: var(--green2);
@@ -73,34 +53,32 @@ nav img {
     border-radius: var(--borderradius);
   }*/
 
- 
-
-  /* Footer */
+/* Footer */
 footer {
-    background-color: #ff8a65;
-    padding: 20px;
-    color: black;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-border-radius: var(--borderradius);
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  footer div {
-    display: flex;
-    align-items: center;
-  }
-  
-  footer img {
-    height: 30px;
-    margin-left: 20px;
-  }
+  background-color: #ff8a65;
+  padding: 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--borderradius);
+}
 
-  /*footer {
+footer p {
+  margin: 0;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 30px;
+  margin-left: 20px;
+}
+
+/*footer {
     position: fixed;
     height: 50px;
     bottom: 0;
@@ -110,9 +88,9 @@ border-radius: var(--borderradius);
 
 
 /* -- Index Page -- */
-  
-  /* Intro  */
-  /*.intro {
+
+/* Intro  */
+/*.intro {
     margin: 30px 0px;
     display: flex;
     align-items: center;
@@ -129,117 +107,116 @@ border-radius: var(--borderradius);
     padding: 10px;
     border-radius: var(--borderradius);
   }*/
-  
-  .post {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-    border: var(--green1) solid 0px;
-    border-radius: var(--borderradius);
-  }
-  .destinationAlignImg {
-    justify-content:space-between;
-  }
-  
-  .post img {
-    width: 300px;
-    max-height: 168px;
-  }
-  
-  .postBlogImg {
-    margin-right: 30px;
-  }
-  
-  .postDestinationsImg {
-    margin-left: 30px;
-  }
-  
-  .post div {
-    flex: 1;
-  }
-  .postBlogText {
-    margin-right: 50px;
-  }
-  
-  .postDestinationsText {
-    margin-left: 50px;
-  }
-  
-  .post li {
-    list-style: none;
-    padding-bottom: 10px;
-  }
-  .post h2 {
-    font-weight: bold;
-    text-align: left;
-  }
-  
-  .post h2,
-  .post p {
-    margin-top: 10px;
-  }
-  
-  .post button.read-more {
-    display: inline-block;
-    margin-top: 5px;
-    padding: 5px 10px;
-    margin-left: 280px;
-    background-color: var(--green1);
-    color: var(--beige);
-    border: none;
-    cursor: pointer;
-    text-align: center;
-    border-radius: var(--borderradius);
-  }
-  
-  .read-more:hover {
-    background-color: var(--green3);
-  }
+
+.post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  border: var(--green1) solid 0px;
+  border-radius: var(--borderradius);
+}
+.destinationAlignImg {
+  justify-content: space-between;
+}
+
+.post img {
+  width: 300px;
+  max-height: 168px;
+}
+
+.postBlogImg {
+  margin-right: 30px;
+}
+
+.postDestinationsImg {
+  margin-left: 30px;
+}
+
+.post div {
+  flex: 1;
+}
+.postBlogText {
+  margin-right: 50px;
+}
+
+.postDestinationsText {
+  margin-left: 50px;
+}
+
+.post li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.post h2 {
+  font-weight: bold;
+  text-align: left;
+}
+
+.post h2,
+.post p {
+  margin-top: 10px;
+}
+.read-more {
+  padding: 5px 10px;
+  background-color: var(--green1);
+  color: var(--beige);
+  border: none;
+  cursor: pointer;
+  border-radius: var(--borderradius);
+}
+
+/*.post button.read-more {
+  margin-left: 280px;
+}*/
+
+.read-more:hover {
+  background-color: var(--green3);
+}
 
 /* Contact Form Section */
 .contact-form {
-    background-color: var(--green2);
-    padding: 10px 20px;
-    border: 1px solid var(--green2);
-    border-radius: var(--borderradius);
-  }
-  
-  .contact-form h2 {
-    color: var(--beige);
-  }
-  
-  .contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    color: var(--beige);
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-  }
-  
-  .contact-form button {
-    padding: 10px 20px;
-    background-color: var(--green1);
-    color: var(--beige);
-    border: none;
-    border-radius: var(--borderradius);
-    cursor: pointer;
-  }
-  
-  .contact-form button:hover {
-    background-color: var(--green3);
-  }
-  
-  .contact-button {
-    text-align: center;
-  }
+  background-color: var(--green2);
+  padding: 10px 20px;
+  border: 1px solid var(--green2);
+  border-radius: var(--borderradius);
+}
 
-  .nl{
-    margin-top: 100px;
-    margin-left: 50px;
-  }
+.contact-form h2 {
+  color: var(--beige);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--beige);
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: var(--green1);
+  color: var(--beige);
+  border: none;
+  border-radius: var(--borderradius);
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: var(--green3);
+}
+
+.contact-button {
+  text-align: center;
+}
+
+.nl {
+  margin-top: 100px;
+  margin-left: 50px;
+}
