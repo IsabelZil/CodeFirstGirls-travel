@@ -68,16 +68,17 @@ footer {
 
 /*footer p {
   margin: 0;
-}
+}*/
 
-/*footer div {
+footer div {
   display: flex;
   align-items: center;
-}*/
+}
 
 footer img {
   height: 30px;
-  margin-left: 20px;
+  margin-left: 10px;
+  margin-bottom: 16px;
 }
 
 /*footer {
