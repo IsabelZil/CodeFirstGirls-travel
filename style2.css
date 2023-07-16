@@ -6,33 +6,8 @@
   --borderradius: 5px;
 }
 
-.nav-link {
-  color: black;
-}
-
-.cardwidh {
-  margin: auto;
-  padding: 5px;
-  margin-bottom: 100px;
-}
-
-.cardmrg {
-  margin: 10px;
-}
-
-.marginextra {
-  width: 80%;
-  margin: auto;
-  margin-bottom: 100px;
-}
-
-.marginlogo {
-  margin-left: 10px;
-}
-
-
 footer {
-  background-color:  var(--green2);
+  background-color: var(--green2);
   padding: 20px;
   color: black;
   display: flex;
@@ -43,8 +18,6 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
-
 
 footer div {
   display: flex;
@@ -57,71 +30,15 @@ footer img {
   margin-bottom: 16px;
 }
 
-
-
-.post {
-  display: flex;
-  align-items: center;
-  margin-bottom: 40px;
-  border: var(--green1) solid 0px;
-  border-radius: var(--borderradius);
-}
-.destinationAlignImg {
-  justify-content: space-between;
+.cardmrg {
+  margin: 10px;
 }
 
-.post img {
-  width: 300px;
-  max-height: 168px;
+.cardwidh {
+  margin: auto;
+  padding: 5px;
+  margin-bottom: 100px;
 }
-
-.postBlogImg {
-  margin-right: 30px;
-}
-
-.postDestinationsImg {
-  margin-left: 30px;
-}
-
-.post div {
-  flex: 1;
-}
-.postBlogText {
-  margin-right: 50px;
-}
-
-.postDestinationsText {
-  margin-left: 50px;
-}
-
-.post li {
-  list-style: none;
-  padding-bottom: 10px;
-}
-.post h2 {
-  font-weight: bold;
-  text-align: left;
-}
-
-.post h2,
-.post p {
-  margin-top: 10px;
-}
-.read-more {
-  padding: 5px 10px;
-  background-color: var(--green1);
-  color: var(--beige);
-  border: none;
-  cursor: pointer;
-  border-radius: var(--borderradius);
-}
-
-
-
-.read-more:hover {
-  background-color: var(--green3);
-}
-
 
 .contact-form {
   background-color: var(--green2);
@@ -166,7 +83,88 @@ footer img {
   text-align: center;
 }
 
+.destinationAlignImg {
+  justify-content: space-between;
+}
+
+.marginextra {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.marginlogo {
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: black;
+}
+
 .nl {
   margin-top: 100px;
   margin-left: 50px;
+}
+
+.photogallery {
+  margin-bottom: 100px;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  border: var(--green1) solid 0px;
+  border-radius: var(--borderradius);
+}
+
+.post img {
+  width: 300px;
+  max-height: 168px;
+}
+
+.postBlogImg {
+  margin-right: 30px;
+}
+
+.postDestinationsImg {
+  margin-left: 30px;
+}
+
+.post div {
+  flex: 1;
+}
+
+.postBlogText {
+  margin-right: 50px;
+}
+
+.postDestinationsText {
+  margin-left: 50px;
+}
+
+.post li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+.post h2 {
+  font-weight: bold;
+  text-align: left;
+}
+
+.post h2,
+.post p {
+  margin-top: 10px;
+}
+.read-more {
+  padding: 5px 10px;
+  background-color: var(--green1);
+  color: var(--beige);
+  border: none;
+  cursor: pointer;
+  border-radius: var(--borderradius);
+}
+
+.read-more:hover {
+  background-color: var(--green3);
 }
