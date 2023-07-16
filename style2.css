@@ -25,35 +25,12 @@
   margin: auto;
   margin-bottom: 100px;
 }
-/*
-nav {
-    background-color: #ff5252; 
-    display: flex;  
-    align-items: center;
-    padding: 10px 20px; 
-    color: white; 
- }
 
-nav img {
-    height: 100%;
-    margin-right: 10%;
-}
-/*
-/* margin logo*/
 .marginlogo {
   margin-left: 10px;
 }
 
-/* Carousel 
-  
-  .carousel-caption {
-    background-color: var(--green2);
-    border: 0px solid var(--beige);
-    padding: 20px;
-    border-radius: var(--borderradius);
-  }*/
 
-/* Footer */
 footer {
   background-color:  var(--green2);
   padding: 20px;
@@ -67,9 +44,7 @@ footer {
   width: 100%;
 }
 
-/*footer p {
-  margin: 0;
-}*/
+
 
 footer div {
   display: flex;
@@ -82,35 +57,7 @@ footer img {
   margin-bottom: 16px;
 }
 
-/*footer {
-    position: fixed;
-    height: 50px;
-    bottom: 0;
-    width: 100%;
-}*
 
-
-
-/* -- Index Page -- */
-
-/* Intro  */
-/*.intro {
-    margin: 30px 0px;
-    display: flex;
-    align-items: center;
-  }
-  
-  .intro img,
-  .intro p {
-    margin: 0 12px;
-  }
-  
-  .carousel-caption {
-    background-color: var(--green2);
-    border: 1px solid var(--beige);
-    padding: 10px;
-    border-radius: var(--borderradius);
-  }*/
 
 .post {
   display: flex;
@@ -169,15 +116,13 @@ footer img {
   border-radius: var(--borderradius);
 }
 
-/*.post button.read-more {
-  margin-left: 280px;
-}*/
+
 
 .read-more:hover {
   background-color: var(--green3);
 }
 
-/* Contact Form Section */
+
 .contact-form {
   background-color: var(--green2);
   padding: 10px 20px;
