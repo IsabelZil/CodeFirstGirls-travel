@@ -22,6 +22,7 @@
 .marginextra {
   width: 80%;
   margin: auto;
+  margin-bottom: 100px;
 }
 /*
 nav {
@@ -42,8 +43,6 @@ nav img {
   margin-left: 10px;
 }
 
-
-
 /* Carousel 
   
   .carousel-caption {
@@ -55,23 +54,26 @@ nav img {
 
 /* Footer */
 footer {
-  background-color: #ff8a65;
+  background-color:  var(--green2);
   padding: 20px;
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: var(--borderradius);
+  position: fixed;
+  height: 75px;
+  bottom: 0;
+  width: 100%;
 }
 
-footer p {
+/*footer p {
   margin: 0;
 }
 
-footer div {
+/*footer div {
   display: flex;
   align-items: center;
-}
+}*/
 
 footer img {
   height: 30px;
@@ -179,6 +181,7 @@ footer img {
   padding: 10px 20px;
   border: 1px solid var(--green2);
   border-radius: var(--borderradius);
+  margin-bottom: 100px;
 }
 
 .contact-form h2 {
